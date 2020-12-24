@@ -3,7 +3,7 @@ import { InformeRepository } from "../repositories/informe.repository";
 
 export interface IUnitOfWork{
 
-  //REPOSITORIESer
+  //REPOSITORIES
   informeRepository:InformeRepository;
 
   start(): void;
